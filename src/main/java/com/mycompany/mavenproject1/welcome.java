@@ -40,7 +40,7 @@ public class welcome extends HttpServlet {
             out.println("<title>Servlet welcome</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Servlet welcome at " + request.getContextPath() + "</h1>");
+            out.println("<h1>Servlet hojala funcione " + request.getContextPath() + "</h1>");
             out.println("Java Web Servlet");
             out.println("</body>");
             out.println("</html>");
